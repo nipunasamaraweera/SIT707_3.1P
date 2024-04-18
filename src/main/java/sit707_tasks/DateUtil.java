@@ -1,7 +1,7 @@
 package sit707_tasks;
 
 /**
- * @author Nipuna Samaraweera
+ * @author Nipuna Thathsara
  */
 public class DateUtil {
 
@@ -99,9 +99,7 @@ public class DateUtil {
 		return 31;  // rest are 31 days' months.
 	}
 	
-	/**
-	 * User friendly output.
-	 */
+
 	public String toString() {
 		return day + " " + MONTHS[month - 1] + " " + year;
 	}
